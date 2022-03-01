@@ -8,12 +8,12 @@ export default ({black}) => {
         <header className={black ? 'black' : ''}>
             <div className="header--logo">
                 <a href="/">
-                    <img src={Logo}/>
+                    <img src={Logo} alt="Logo"/>
                 </a>
             </div>
             <div className="header--user">
                 <a href="/">
-                    <img src={User}/>
+                    <img src={User} alt="Username"/>
                 </a>
             </div>
         </header>

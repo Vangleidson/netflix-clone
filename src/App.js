@@ -4,6 +4,7 @@ import MovieRow from './components/MovieRow'
 import './App.css'
 import FeaturedMovie from './components/FeaturedMovie'
 import Header from './components/Header'
+import LoadingLogo from './components/img/netflix-loading.gif'
 
 export default () => {
 
@@ -59,6 +60,7 @@ export default () => {
                 Direitos de imagem da Netflix<br/>
                 Uso da API da TMDB
             </footer>
+           
         </div>  
         
     )
